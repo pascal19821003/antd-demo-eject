@@ -1,0 +1,14 @@
+.box {
+  width: 20rem;
+  height: 10rem;
+  font-size: 1.6rem;
+  border: 1px solid #000;
+}
+.imgContainer {
+  width: 20rem;
+  overflow: hidden;
+}
+.img {
+  width: 20rem;
+  min-width: 150px;
+}

@@ -1,0 +1,46 @@
+.container {
+  margin: 100px 60px;
+  width: 800px;
+  height: 300px;
+}
+.chart {
+  height: 300px;
+  border-bottom: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.chart .bar {
+  position: relative;
+}
+.chart .bar .height {
+  position: absolute;
+  top: -20px;
+}
+.chart .bar .num {
+  position: absolute;
+  bottom: -20px;
+  text-align: center;
+  display: inline-block;
+}
+.operate {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.operate input {
+  width: 50px;
+  margin: 0 10px;
+  text-align: center;
+}
+.operate .button {
+  border-radius: 6px;
+  background-color: coral;
+  font-weight: 600;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}

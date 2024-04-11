@@ -1,0 +1,11 @@
+.login {
+  margin-top: calc(30vh);
+}
+.login .card {
+  margin: 0 auto ;
+  width: 600px;
+  text-align: center;
+}
+.login .card form {
+  text-align: left;
+}
