@@ -46,3 +46,19 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## add to github 2024-04-12 00:22:53
+
+## git
+
+…or create a new repository on the command line
+echo "# antd-demo-eject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pascal19821003/antd-demo-eject.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/pascal19821003/antd-demo-eject.git
+git branch -M main
+git push -u origin main
